@@ -1,0 +1,70 @@
+* {
+  font-family: "Poppins", system-ui, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #ffd1dc, #ffe6ec);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 18px;
+  text-align: center;
+  width: 360px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.emoji {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+button {
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+#yesBtn {
+  background: #ff4d6d;
+  color: white;
+  font-weight: 600;
+}
+
+#noBtn {
+  background: #eee;
+  position: absolute;
+}
+
+.hint {
+  margin-top: 30px;
+  font-size: 13px;
+  color: #666;
+}
